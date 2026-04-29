@@ -9,6 +9,11 @@
 
 // include "outputs.kdl"
 
+window-rule {
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
 input {
     mod-key "Alt"
     keyboard {
