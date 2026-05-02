@@ -9,6 +9,8 @@
 
 // include "outputs.kdl"
 
+spawn-at-startup "systemctl" "--user" "start" "plasma-polkit-agent.service"
+
 xwayland-satellite {
     path "xwayland-satellite"
 }
